@@ -9,3 +9,8 @@ function fuzzyMatch(drivers,str){
 arr=drivers.filter((driver) => driver[0]===str[0],str)
 return arr
 }
+function matchName(drivers,str){
+  let arr=[]
+arr=drivers.filter((driver) => driver.name===str,str)
+return arr
+}
